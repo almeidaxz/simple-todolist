@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+body{
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+input{
+    font-family: sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button{
+    padding: 5px;
+}
+
+img{
+    width: 15px;
+    cursor: pointer;
+}
+
+li{
+    font-family: sans-serif;
+    letter-spacing: 0.2px;
+    cursor: context-menu;
+}
+
+.input-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.tarefas{
+    background-color: gray;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.completa{
+    text-decoration: line-through;
+}
